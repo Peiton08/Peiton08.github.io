@@ -1,0 +1,22 @@
+body{
+    height: 100px;
+    background-image: url('./img/fondo1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family:Southland ;
+    src: url('./letras/Southland.ttf');
+}
+
+h1{
+    font-family: Southland;
+    font-size: 100px;
+    text-align: center;
+    font-weight: lighter;
+    color: #000;
+    margin: -30px;
+    margin-top: -60px;
+}
