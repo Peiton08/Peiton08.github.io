@@ -1,11 +1,9 @@
 body{
-    height: 100px;
     background-image: url('./img/fondo1.jpg');
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
     padding: 10px;
-    margin: 0;
 }
 
 @font-face {
