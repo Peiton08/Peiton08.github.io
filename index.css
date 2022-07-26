@@ -5,6 +5,7 @@ body{
     background-size:cover;
     background-attachment: fixed;
     padding: 10px;
+    margin: 0;
 }
 
 @font-face {
