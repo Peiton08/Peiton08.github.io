@@ -1,10 +1,4 @@
-body{
-    background-image: url('./img/fondo1.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-}
-
+/*Inico fuentes*/
 @font-face {
     font-family:Southland ;
     src: url('./letras/Southland.ttf');
@@ -13,7 +7,43 @@ body{
     font-family:NewYork ;
     src: url('./letras/NewYork.otf');
 }
+/*Fin fuentes*/
 
+/*Inicio background*/
+body{
+    background-image: url('./img/fondo.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+/*Fin background*/
+
+/*Inicio margen de textos*/
+.div1{
+    margin-top: -30px ;
+    margin-bottom: 30px;
+}
+
+.div2{      
+    margin-bottom: 50px;
+}
+/*Fin margen de textos*/
+
+/*Inicio estilo de mapas*/
+iframe{
+    width: 300px;
+    height: 200px;
+    border-style: none;
+    box-shadow: 20px 20px 15px -2px rgba(0,0,0,0.59) ;
+}
+
+.embed-container{
+    margin-left: 28px;
+    margin-bottom: 30px;
+}
+/*Fin estilo de mapas*/
+
+/*Inico estilo de textos*/
 h1{
     font-family: Southland;
     font-size: 85px;
@@ -22,17 +52,7 @@ h1{
     margin: 0;
     margin-top: -40px;
     height:200px;
-    color: #fff;
-    text-shadow: 4px 3px 0 #7A7A7A;
-}
-
-.div1{
-    margin-top: -30px ;
-    margin-bottom: 30px;
-}
-
-.div2{      
-    margin-bottom: 50px;
+    color: #F6F0ED;
 }
 
 h2{
@@ -42,8 +62,7 @@ h2{
     font-weight: lighter;
     margin: 20px 0 40px 0;
     line-height: 50px;
-    color: #FFFFFF;
-    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #F6F0ED;
 }
 
 p{
@@ -52,35 +71,24 @@ p{
     text-align: center;
     font-weight: lighter;
     margin: 0;
-    color: #FFFFFF;
-    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #F6F0ED;
 }
 
-iframe{
-    width: 300px;
-    height: 200px;
-    border-style: groove;
-    border-color: #7A7A7A;
-    box-shadow: 20px 20px 15px -2px rgba(0,0,0,0.59) ;
-    margin: 15px;
+.southland-font{
+    font-family: 'Southland';
+    font-size: 70px;
+    color: #F6F0ED;
+    margin-top: -50px;
+    margin-bottom: -15px;
+    height: 130px;
 }
 
 #correo-style{
     text-decoration: none;
     font-family: 'Southland';
     font-size: 60px;
-    color: #FFFFFF;
-    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #F6F0ED;
+    margin-left: 20px;
+    
 }
-
-#especial{
-    font-family: 'Southland';
-    font-size: 70px;
-    color: #FFFFFF;
-    text-shadow: 4px 3px 0 #7A7A7A;
-    margin-top: -30px;
-    margin-bottom: -15px;
-    height: 130px;
-}
-
-
+/*Fin estilo de textos*/
